@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+}
+
+header {
+  background-color: #5a497d;
+  width: 100%;
+  height: 60px;
+}
+
+#search-area {
+  background-color: #e8ebf2;
+  width: 100%;
+  height: 60px;
+}
+#search-area i {
+  font-size: 25px;
+  color: #c9ccd3;
+}
+#search-area input {
+  margin-top: 20px;
+  background-color: #e8ebf2;
+  border: none;
+  font-size: 20px;
+  color: #c9ccd3;
+  width: 30%;
+}
+#search-area input:focus {
+  border: none;
+  outline: none;
+  color: #333436;
+}
+
+#add-area {
+  width: 100%;
+  height: 80px;
+}
+#add-area .row {
+  justify-content: space-between;
+}
+#add-area input {
+  width: 80px;
+  height: 30px;
+  border: 1px solid #c9ccd3;
+  border-radius: 5px;
+  padding: 2px;
+}
+#add-area .salary-filter-area {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  width: 17%;
+  justify-content: space-between;
+}
+#add-area .salary-filter-area button {
+  width: 80px;
+  height: 30px;
+  background-color: #2cd8bc;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+#add-area .add-person-area {
+  display: flex;
+  height: 80px;
+  align-items: center;
+}
+#add-area .add-person-area button {
+  width: 150px;
+  height: 40px;
+  background-color: #2cd8bc;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+#employees-area {
+  width: 100%;
+  height: 80px;
+}
+#employees-area table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#employees-area table thead {
+  height: 60px;
+  background-color: #e2e5ec;
+  color: #7d7d80;
+  font-size: 20px;
+}
+#employees-area table tr {
+  border-bottom: 1px solid #7d7d80;
+}
+#employees-area table tbody {
+  height: 60px;
+  color: #7d7d80;
+  font-size: 20px;
+  text-align: center;
+}
+#employees-area table tbody td {
+  padding: 20px;
+}
+#employees-area table tbody button {
+  width: 80px;
+  height: 30px;
+  background-color: #2cd8bc;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin: 0 20px;
+}
+#employees-area .empty {
+  text-align: center;
+  color: #7d7d80;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#add-employee-area {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 400px;
+  height: 500px;
+  background-color: rgb(129, 128, 128);
+}
+#add-employee-area .head {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  padding: 10px;
+}
+#add-employee-area .head .row {
+  justify-content: space-between;
+}
+#add-employee-area .head h4 {
+  color: #2cd8bc;
+  padding: 3px;
+  font-size: 20px;
+}
+#add-employee-area .head button {
+  width: 80px;
+  height: 30px;
+  background-color: #2cd8bc;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  margin: 0 5px;
+}/*# sourceMappingURL=style.css.map */

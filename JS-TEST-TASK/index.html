@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/0220a92c5a.js" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="row">
+            <div class="logo">
+                <h1></h1>
+            </div>
+            <div class="menu-bar">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            
+        </div>
+    </header>
+    <main>
+        <section id="search-area">
+            <div class="container">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="Search employees">
+            </div>    
+        </section>
+        <section id="add-area">
+            <div class="container">
+                <div class="row">
+                    <div class="salary-filter-area">
+			            <input placeholder="Min.Salary" type="text" id="minSalary">
+			            <input placeholder="Max.Salary" type="text" id="maxSalary">
+			            <button id="salaryFilterButton">Filter</button>
+                    </div>
+                    <div class="add-person-area">
+                        <button><i class="fa-solid fa-plus"></i> Add Employee</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="employees-area">
+            <div class="container">
+                <table>
+                    <thead>
+                      <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Position</th>
+                        <th>Salary</th>
+                        <th>Select</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>ibo</td>
+                            <td>qasimzada</td>
+                            <td>devolop</td>
+                            <td>6000</td>
+                            <td><button>Edit</button><button>Delete</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h4 class="empty">Table is Empty</h4>
+            </div>
+        </section>
+        <section id="add-employee-area">
+            <div class="head">
+                <div class="row">
+                    <h4>Add Employee</h4>
+                    <div class="select">
+                        <div class="row">
+                            <button>Create</button>
+                            <button>Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

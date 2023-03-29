@@ -1,0 +1,22 @@
+#search-area{
+    background-color: #e8ebf2;
+    width: 100%;
+    height: 60px;
+    i{
+        font-size: 25px;
+        color:#c9ccd3;
+    }
+    input{
+        margin-top: 20px;
+        background-color: #e8ebf2;
+        border: none;
+        font-size: 20px;
+        color:#c9ccd3;
+        width: 30%;
+        &:focus{
+            border: none;
+            outline: none;
+            color: #333436;
+        }
+    }
+}
